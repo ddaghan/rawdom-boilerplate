@@ -1,6 +1,6 @@
 {
   "name": "rawdom-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "boilerplate for rawdom",
   "main": "testrawdom.js",
   "scripts": {

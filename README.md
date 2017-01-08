@@ -3,9 +3,9 @@
 boilerplate for rawdom with rollup rollup-plugin-node-resolve and rollup-commonjs
 
 ## Node modules used:
-rollup
-rollup-plugin-commonjs
-rollup-plugin-node-resolve
+- rollup
+- rollup-plugin-commonjs
+- rollup-plugin-node-resolve
 
 ## src/testrawdom.js:
 
