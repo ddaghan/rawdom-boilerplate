@@ -1,0 +1,20 @@
+{
+  "name": "rawdom-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate for rawdom",
+  "main": "testrawdom.js",
+  "scripts": {
+    "test": "echo 'browse test.html'",
+    "build": "rollup -c"
+  },
+  "author": "daghan dinc",
+  "license": "MIT",
+  "dependencies": {
+    "rawdom": "^1.0.4"
+  },
+  "devDependencies": {
+    "rollup": "^0.41.1",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0"
+  }
+}
