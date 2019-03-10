@@ -2,10 +2,10 @@
 
 boilerplate for rawdom with rollup rollup-plugin-node-resolve and rollup-commonjs
 
-see
-test.html - rollup/webpack packaging use
-testModule.html - importing from node_modules es6 style
-testUnpkg.html - importing from a cdn (e.g. unpkg)
+Please see
+- test.html - rollup/webpack packaging use
+- testModule.html - importing from node_modules es6 style
+- testUnpkg.html - importing from a cdn (e.g. unpkg)
 
 ## Node modules used:
 - rollup
