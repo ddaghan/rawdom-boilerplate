@@ -1,21 +1,4 @@
-# rawdom-boilerplate
-
-boilerplate for rawdom with rollup rollup-plugin-node-resolve and rollup-commonjs
-
-see
-test.html - rollup/webpack packaging use
-testModule.html - importing from node_modules es6 style
-testUnpkg.html - importing from a cdn (e.g. unpkg)
-
-## Node modules used:
-- rollup
-- rollup-plugin-commonjs
-- rollup-plugin-node-resolve
-
-## src/testrawdom.js:
-
-```javascript
-import {main,ul,li,a,h1,button} from 'rawdom';
+import {main,ul,li,a,h1,button} from 'https://unpkg.com/rawdom@1.1.3/jsdist/rawdom.js';
 
 document.body.appendChild(
     main(
@@ -50,15 +33,3 @@ document.body.appendChild(
         )
     )
 )
-```
-
-Above file outputs to ./testrawdom.js which is referenced in test.html which
-you can browse to see it in action.
-
-## build
-
-node_modules/.bin/rollup -c
-
-# License
-
-MIT
